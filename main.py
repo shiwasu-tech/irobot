@@ -18,10 +18,19 @@ Speed = 30 #30
 # Default_speed
 movement_motors.set_default_speed(Speed)
 
+# initial sound
+hub.speaker.beep(60, 0.5)
+hub.speaker.beep(61, 0.5)
+hub.speaker.beep(62, 0.5)
+hub.speaker.beep(63, 0.5)
+hub.speaker.beep(64, 0.5)
+hub.speaker.beep(65, 0.5)
+hub.speaker.beep(66, 0.5)
+
 GO = True
 DETECT = False
 
-#neck potision initialize
+# neck potision initialize
 neck_morter.run_to_position(340)
 neck_morter.run_for_degrees(20,100)
 neck_morter.run_for_degrees(20,100)
@@ -85,5 +94,9 @@ while GO:
 movement_motors.start(speed=0)
 hub.light_matrix.show_image('YES')
 
+# final sound
+hub.speaker.beep(60, 1.5)
+hub.speaker.beep(53, 0.5)
+hub.speaker.beep(60, 1.5)
 
 hub.light_matrix.show_image('ASLEEP')
