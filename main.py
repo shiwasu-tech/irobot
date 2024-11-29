@@ -95,8 +95,9 @@ movement_motors.start(speed=0)
 hub.light_matrix.show_image('YES')
 
 # final sound
-hub.speaker.beep(60, 1.5)
+hub.speaker.beep(60, 0.5)
 hub.speaker.beep(53, 0.5)
-hub.speaker.beep(60, 1.5)
+hub.speaker.beep(60, 0.5)
+hub.speaker.beep(67, 0.5)
 
 hub.light_matrix.show_image('ASLEEP')
