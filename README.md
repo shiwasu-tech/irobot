@@ -4,6 +4,8 @@
 
 に用いたソースコードです．
 
+![機体の画像](image.png)
+
 ## SPIKEPRIME
 > SPIKEPRIME製品ページ<br>
 > https://education.lego.com/ja-jp/products/lego-education-spike-prime-set/45678/<br>
